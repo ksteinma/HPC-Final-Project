@@ -21,7 +21,7 @@ DEPS = $(SRCS:src/%.cpp=bin/%.d)
 
 # Default target
 $(NAME): $(OBJS)
-	$(CXX) $(CPP_FLAGS) $^ -o $(NAME)
+	$(CXX) $(CPPFLAGS) $^ -o $(NAME)
 
 # Build and run the program
 run: $(NAME)
