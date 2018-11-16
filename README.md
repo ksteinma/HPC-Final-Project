@@ -2,6 +2,8 @@
 
 This is our final project for the High Performance Computing class at Colorado School of Mines. This project's goal is to create a fast implementation of DeBruijn Graph creation and Euler Cycle finding. 
 
+This repository is just the naive implementation. Our CUDA implementaiton can be found [here](https://github.com/alanchampion/DeBruijn-is-a-Shoein). 
+
 ## Getting Started
 
 You will need to install the Bcalm library [here](https://github.com/GATB/bcalm) and follow there installation instructions. The bcalm repo should be placed in the folder for this project. 
