@@ -1,0 +1,9 @@
+*.fa*
+*output.txt
+*edges.txt
+*ciclueuler*
+*.fastq
+bcalm/*
+hpc
+bin/*
+*.h5
