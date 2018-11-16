@@ -62,7 +62,7 @@ int main(){
 	string edges = "edges.txt";
 
 	//construct the BCALM call command
-	string cmd = "/u/eu/go/ksteinma/HPC-Final-Project/bcalm/build/bcalm -in " + infile + " -kmer-size " + k + " -abundance-min " + min;
+	string cmd = "./bcalm/build/bcalm -in " + infile + " -kmer-size " + k + " -abundance-min " + min;
 
 	//construct De Bruijn graph
 	system(cmd.c_str()); 
